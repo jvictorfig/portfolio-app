@@ -1,0 +1,49 @@
+.header {
+    background-color: var(--header-color); /* Cor de fundo do cabeçalho */
+    color: var(--tertiary-color); /* Cor do texto no cabeçalho */
+    padding: 20px 0; /* Espaçamento interno do cabeçalho */ 
+    position: sticky;
+}
+  
+.container {
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centralizar o conteúdo horizontalmente */
+    padding: 0 20px; /* Espaçamento interno do conteúdo */
+}
+  
+.header-content {
+    display: flex; /* Exibir conteúdo em linha */
+    justify-content: space-between; /* Alinhar à esquerda e à direita */
+    align-items: center; /* Alinhar verticalmente ao centro */
+}
+  
+.site-title {
+    font-size: 2rem; /* Tamanho da fonte do título */
+    margin: 0; /* Remover margens padrão */
+}
+  
+.site-subtitle {
+    font-size: 1rem; /* Tamanho da fonte do subtítulo */
+    margin: 0; /* Remover margens padrão */
+}
+  
+.main-navigation ul {
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover preenchimento da lista */
+    display: flex; /* Exibir itens de lista em linha */
+}
+  
+.main-navigation li {
+    margin-right: 20px; /* Espaçamento entre os itens do menu */
+}
+  
+.main-navigation a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: var(--text-color); /* Cor dos links no cabeçalho */
+    font-weight: bold; /* Texto em negrito */
+    transition: color 0.3s; /* Transição suave de cor */
+}
+  
+.main-navigation a:hover {
+    color: var(--tertiary-color); /* Cor ao passar o mouse sobre os links */
+}
