@@ -1,9 +1,9 @@
 <template>
-  <VApp>
-    <VMain>
+  <v-app>
+    <v-main>
       <Home />
-    </VMain>
-  </VApp>
+    </v-main>
+  </v-app>
 </template>
 
 <script>

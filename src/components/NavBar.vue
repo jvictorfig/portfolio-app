@@ -2,12 +2,14 @@
   <VAppBar app color="black" dark flat class="px-12">
     <VCol>
       <VBtn
-        ><VIcon color="yellow" left class="mr-2">fa-solid fa-code</VIcon>
+        ><VIcon color="amber" left class="mr-2">fa-solid fa-code</VIcon>
         SANTANA</VBtn
       >
     </VCol>
     <VCol>
-      <VBtn text right @click="scroll('home')" class="text-yellow">Home</VBtn>
+      <VBtn text right @click="scroll('home')" class="text-amber"
+        >Página inicial</VBtn
+      >
       <VBtn text right @click="scroll('about')">Sobre</VBtn>
       <VBtn text right @click="scroll('experience')">Experiência</VBtn>
       <VBtn text right @click="scroll('education')">Educação</VBtn>
@@ -22,7 +24,7 @@ export default {
   methods: {
     scroll(refName) {
       const element = document.getElementById(refName);
-      element.scrollIntoView({ behavior: smooth });
+      element.scrollIntoView();
     },
   },
 };

@@ -15,6 +15,10 @@ export default createVuetify(
       sets: {
         fa,
       }
+    },
+    //https://vuetifyjs.com/en/features/theme/ - V3
+    theme: {
+      defaultTheme: 'light'
     }
   }
 )
