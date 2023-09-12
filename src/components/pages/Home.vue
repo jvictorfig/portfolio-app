@@ -3,6 +3,7 @@
   <AboutView />
   <ExperienceView />
   <EducationView />
+  <ContatoView />
   <FooterView />
 </template>
 
@@ -12,6 +13,7 @@ import AboutView from "../About.vue";
 import FooterView from "../Footer.vue";
 import ExperienceView from "../Experience.vue";
 import EducationView from "../Education.vue";
+import ContatoView from "../Contato.vue";
 
 export default {
   name: "HomePage",
@@ -21,6 +23,7 @@ export default {
     ExperienceView,
     FooterView,
     EducationView,
+    ContatoView,
   },
 };
 </script>
